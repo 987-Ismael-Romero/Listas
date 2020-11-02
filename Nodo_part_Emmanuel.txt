@@ -1,0 +1,10 @@
+public class Nodo{
+
+private String dato;
+Nodo siguiente;
+
+Public Nodo(String i, Nodo s){
+	dato = i;
+	siguiente = s;
+   }
+}
