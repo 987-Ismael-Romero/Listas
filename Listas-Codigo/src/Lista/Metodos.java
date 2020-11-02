@@ -14,5 +14,16 @@ public class Metodos{
             fin = inicio;
         }
     }
+public void InsertarFinal(String dato){
+        Nodo nuevo = new Nodo(dato,null);
+        if(inicio == null){
+            fin = inicio;
+            inicio = fin;
+        } else {
+            fin.setSiguiente(nuevo);
+            fin = nuevo;
+        }
+    }
+
 
 }
