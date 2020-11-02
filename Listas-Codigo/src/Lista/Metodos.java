@@ -24,6 +24,14 @@ public void InsertarFinal(String dato){
             fin = nuevo;
         }
     }
+	public void EliminarInicio(){
+		inicio = inicio.siguiente;
+	}
+
+
+	public void eliminar(){
+		inicio = null;
+	}
      public void Listar(){
         Nodo aux = inicio;
         while(aux != null){
