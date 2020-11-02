@@ -24,6 +24,14 @@ public void InsertarFinal(String dato){
             fin = nuevo;
         }
     }
+     public void Listar(){
+        Nodo aux = inicio;
+        while(aux != null){
+            System.out.println("["+aux.getdato()+"]");
+            aux = aux.siguiente;
+        }
+        System.out.println("");
+    }
 
 
 }
