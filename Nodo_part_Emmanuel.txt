@@ -7,4 +7,13 @@ Public Nodo(String i, Nodo s){
 	dato = i;
 	siguiente = s;
    }
+   
+   public  String getdato(){
+   return dato;
+   }
+   
+   public void setdatos(String info){
+   this.dato=info;
+   }
+   
 }
