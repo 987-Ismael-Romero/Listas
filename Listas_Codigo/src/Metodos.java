@@ -1,3 +1,4 @@
+//Ismael
 public class Metodos{
 
     Nodo inicio;
@@ -14,7 +15,9 @@ public class Metodos{
             fin = inicio;
         }
     }
-public void InsertarFinal(String dato){
+
+    //Gibran
+    public void InsertarFinal(String dato){
         Nodo nuevo = new Nodo(dato,null);
         if(inicio == null){
             fin = inicio;
@@ -24,22 +27,23 @@ public void InsertarFinal(String dato){
             fin = nuevo;
         }
     }
-	public void EliminarInicio(){
-		inicio = inicio.siguiente;
-	}
 
-
-	public void eliminar(){
-		inicio = null;
-	}
-     public void Listar(){
-        Nodo aux = inicio;
-        while(aux != null){
-            System.out.println("["+aux.getdato()+"]");
-            aux = aux.siguiente;
-        }
-        System.out.println("");
+    //Karim
+    public void EliminarInicio() {
+        inicio = inicio.siguiente;
     }
 
+    public void eliminar(){
+        inicio = null;
+    }
 
+    //Hector
+    public void Listar(){
+        Nodo aux = inicio;
+        while(aux != null){
+            System.out.println(" [ " + aux.getdato() + " ] ");
+            aux = aux.siguiente;
+        }
+        System.out.println();
+    }
 }
